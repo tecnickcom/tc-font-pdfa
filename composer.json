@@ -3,7 +3,7 @@
     "description": "Type1 core fonts for PDF/A",
     "type": "library",
     "homepage": "http://www.tecnick.com",
-    "license": "GNU-GPL v3",
+    "license": "LGPL-3.0",
     "keywords": ["tc-font-pdf", "PDF/A", "font", "core", "PFB"],
     "require": {},
     "require-dev": {}
