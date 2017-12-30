@@ -1,12 +1,12 @@
 {
   "name": "font/pdfa",
-  "description": "Type1 core fonts for PDF/A",
+  "description": "Type1 core fonts for PDFA",
   "type": "library",
   "homepage": "http://www.tecnick.com",
   "license": "LGPL-3.0",
   "keywords": [
     "tc-font-pdf",
-    "PDF/A",
+    "PDFA",
     "font",
     "core",
     "PFB"
