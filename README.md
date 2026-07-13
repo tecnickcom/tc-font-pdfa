@@ -1,48 +1,71 @@
-# PDF/A Core Fonts
-*Type1 core fonts for PDF/A*
+# tc-font-pdfa
 
-* **category**    Fonts
-* **author**      Nicola Asuni <info@tecnick.com>
-* **license**     https://www.gnu.org/licenses/gpl-3.0.en.html GNU-GPL v3 (see LICENSE)
-* **link**        https://github.com/tecnickcom/tc-font-pdfa
+> Type1 core fonts for PDF/A workflows.
 
-## Description
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-This project contains 14 Type 1 PDF core fonts derived from the GNU FreeFont fonts (http://www.gnu.org/software/freefont/).
+[![Sponsor on GitHub](https://img.shields.io/badge/sponsor-github-EA4AAA.svg?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/tecnickcom)
 
-The purpose of these fonts is to be able to embedd PDF Core fonts when using the PDF/A mode.
+> 💖 Part of the [tc-lib-pdf / TCPDF](https://github.com/tecnickcom/tc-lib-pdf) ecosystem (100M+ installs). [Sponsor its maintenance →](https://github.com/sponsors/tecnickcom)
 
-The original Unicode fonts can be downloaded from: https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip
+---
 
-For additional information, please check the GNU FreeFont website: http://www.gnu.org/software/freefont/
+## Overview
 
-## Changes
+`tc-font-pdfa` contains 14 Type1 PDF core font files generated from GNU FreeFont to support PDF/A-compatible embedding scenarios.
 
-The font files were generated using the following procedure:
+This package targets compliance-oriented workflows where predictable, embeddable base fonts are required for archival documents. By shipping generated assets in a dedicated repository, PDF toolchains can keep runtime dependencies lightweight while preserving consistent rendering across platforms.
 
-* Open the font using FontForge (http://fontforge.sourceforge.net/);
-* From the menu select: Encoding > Reencode > Windows Latin ("ANSI") (or "Symbol" for the Symbol font, or load custom ZapfDingbats.enc);
-* Select first 255 characters;
-* Invert selection with: Edit > Select > Invert selection [CTRL+ESC];
-* Remove glyps with: Encoding > Detach & Remove Glyphs...;
-* Remove unused slots with: Encoding > Remove Unused Slots;
-* Change font name with: Element > Font Info...;
-* Export the file with: File > Generate fonts ... > PS Type 1 (Binary).
+---
 
-### Processed files
+## Features
+
+### Core Font Set
+- Courier, Helvetica, Times (regular/bold/italic variants)
+- Symbol and ZapfDingbats support
+- Binary Type1 (`.pfb`) and metrics (`.afm`) assets
+
+### PDF/A-Oriented Distribution
+- Deterministic file naming for automation
+- Suitable for embedding in PDF/A production pipelines
+- Includes conversion notes and provenance details
+
+---
+
+## Requirements
+
+- No runtime PHP requirements
+- A PDF engine or conversion tool that consumes Type1 assets
+
+---
+
+## Installation
+
+Install with Composer to make assets available in vendor paths:
+
+```bash
+composer require font/pdfa
 ```
-* FreeMono.ttf             => PDFACourier.pfb
-* FreeMonoBold.ttf         => PDFACourierBold.pfb
-* FreeMonoBoldOblique.ttf  => PDFACourierBoldOblique.pfb
-* FreeMonoOblique.ttf      => PDFACourierOblique.pfb
-* FreeSans.ttf             => PDFAHelvetica.pfb
-* FreeSansBold.ttf         => PDFAHelveticaBold.pfb
-* FreeSansBoldOblique.ttf  => PDFAHelveticaBoldOblique.pfb
-* FreeSansOblique.ttf      => PDFAHelveticaOblique.pfb
-* FreeSerif.ttf            => PDFATimes.pfb
-* FreeSerifBold.ttf        => PDFATimesBold.pfb
-* FreeSerifBoldItalic.ttf  => PDFATimesBoldItalic.pfb
-* FreeSerifItalic.ttf      => PDFATimesItalic.pfb
-* FreeSerif.ttf            => PDFASymbol.pfb
-* FreeSerif.ttf            => PDFAZapfdingbats.pfb
+
+---
+
+## Quick Start
+
+Use files from the `pfb/` and `afm/` directories in your PDF/font import workflow.
+
+```text
+afm/
+pfb/
 ```
+
+---
+
+## Development
+
+This project is asset-centric. Typical contributions include regenerating fonts, validating metadata, and documenting conversion steps.
+
+---
+
+## Packaging
+
+Distributed as source assets via Git and Composer.
