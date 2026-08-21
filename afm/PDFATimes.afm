@@ -162,9 +162,9 @@ C 177 ; WX 564 ; N plusminus ; B 30 0 534 633 ;
 C 178 ; WX 320 ; N twosuperior ; B 12 390 315 850 ;
 C 179 ; WX 320 ; N threesuperior ; B 29 380 294 850 ;
 C 180 ; WX 250 ; N acute ; B 10 507 234 678 ;
-C 181 ; WX 500 ; N micro ; B 36 -218 512 450 ;
+C 181 ; WX 500 ; N mu ; B 36 -218 512 450 ;
 C 182 ; WX 483 ; N paragraph ; B 8 -154 480 662 ;
-C 183 ; WX 250 ; N middot ; B 75 183 174 282 ;
+C 183 ; WX 250 ; N periodcentered ; B 75 183 174 282 ;
 C 184 ; WX 333 ; N cedilla ; B 52 -215 261 0 ;
 C 185 ; WX 320 ; N onesuperior ; B 67 390 260 850 ;
 C 186 ; WX 310 ; N ordmasculine ; B 6 270 304 676 ;
@@ -204,7 +204,7 @@ C 219 ; WX 721 ; N Ucircumflex ; B 15 -14 706 886 ;
 C 220 ; WX 721 ; N Udieresis ; B 15 -14 706 834 ;
 C 221 ; WX 701 ; N Yacute ; B 10 0 691 890 ;
 C 222 ; WX 577 ; N Thorn ; B 16 0 542 662 ;
-C 223 ; WX 491 ; N ssharp ; B 10 -9 466 683 ;
+C 223 ; WX 491 ; N germandbls ; B 10 -9 466 683 ;
 C 224 ; WX 435 ; N agrave ; B 25 -10 430 676 ;
 C 225 ; WX 435 ; N aacute ; B 25 -10 430 676 ;
 C 226 ; WX 435 ; N acircumflex ; B 25 -10 430 674 ;
@@ -2466,32 +2466,32 @@ KPX Yacute agrave -50
 KPX Yacute a -50
 KPX Thorn t -10
 KPX Thorn j -70
-KPX ssharp zcaron -10
-KPX ssharp z -10
-KPX ssharp x -10
-KPX ssharp ydieresis -28
-KPX ssharp yacute -28
-KPX ssharp y -28
-KPX ssharp w -28
-KPX ssharp v -28
-KPX ssharp udieresis -10
-KPX ssharp ucircumflex -10
-KPX ssharp uacute -10
-KPX ssharp ugrave -10
-KPX ssharp u -10
-KPX ssharp p -10
-KPX ssharp r -10
-KPX ssharp n -10
-KPX ssharp m -10
-KPX ssharp j -90
-KPX ssharp iacute -10
-KPX ssharp i -10
-KPX ssharp l -10
-KPX ssharp k -10
-KPX ssharp h -10
-KPX ssharp g -10
-KPX ssharp f -10
-KPX ssharp b -10
+KPX germandbls zcaron -10
+KPX germandbls z -10
+KPX germandbls x -10
+KPX germandbls ydieresis -28
+KPX germandbls yacute -28
+KPX germandbls y -28
+KPX germandbls w -28
+KPX germandbls v -28
+KPX germandbls udieresis -10
+KPX germandbls ucircumflex -10
+KPX germandbls uacute -10
+KPX germandbls ugrave -10
+KPX germandbls u -10
+KPX germandbls p -10
+KPX germandbls r -10
+KPX germandbls n -10
+KPX germandbls m -10
+KPX germandbls j -90
+KPX germandbls iacute -10
+KPX germandbls i -10
+KPX germandbls l -10
+KPX germandbls k -10
+KPX germandbls h -10
+KPX germandbls g -10
+KPX germandbls f -10
+KPX germandbls b -10
 KPX agrave ydieresis -25
 KPX agrave yacute -25
 KPX agrave y -25

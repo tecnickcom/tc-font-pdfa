@@ -161,9 +161,9 @@ C 177 ; WX 570 ; N plusminus ; B 33 0 537 568 ;
 C 178 ; WX 300 ; N twosuperior ; B 138 390 449 799 ;
 C 179 ; WX 300 ; N threesuperior ; B 133 385 437 803 ;
 C 180 ; WX 333 ; N acute ; B 139 516 379 697 ;
-C 181 ; WX 576 ; N micro ; B -40 -207 536 449 ;
+C 181 ; WX 576 ; N mu ; B -40 -207 536 449 ;
 C 182 ; WX 500 ; N paragraph ; B 3 -193 622 669 ;
-C 183 ; WX 250 ; N middot ; B 118 157 266 305 ;
+C 183 ; WX 250 ; N periodcentered ; B 118 157 266 305 ;
 C 184 ; WX 333 ; N cedilla ; B -80 -218 156 5 ;
 C 185 ; WX 272 ; N onesuperior ; B 117 390 388 799 ;
 C 186 ; WX 300 ; N ordmasculine ; B 57 256 377 685 ;
@@ -203,7 +203,7 @@ C 219 ; WX 714 ; N Ucircumflex ; B 107 -18 784 897 ;
 C 220 ; WX 714 ; N Udieresis ; B 107 -18 784 839 ;
 C 221 ; WX 639 ; N Yacute ; B 128 0 714 900 ;
 C 222 ; WX 597 ; N Thorn ; B 0 0 601 669 ;
-C 223 ; WX 580 ; N ssharp ; B -75 -200 598 705 ;
+C 223 ; WX 580 ; N germandbls ; B -75 -200 598 705 ;
 C 224 ; WX 509 ; N agrave ; B 14 -14 490 697 ;
 C 225 ; WX 509 ; N aacute ; B 14 -14 490 697 ;
 C 226 ; WX 509 ; N acircumflex ; B 14 -14 490 690 ;
@@ -1542,7 +1542,7 @@ KPX a j -60
 KPX a iacute -20
 KPX a i -20
 KPX a florin -70
-KPX a ssharp -70
+KPX a germandbls -70
 KPX a f -70
 KPX b ydieresis -20
 KPX b yacute -20
@@ -1553,7 +1553,7 @@ KPX b j -70
 KPX b iacute -10
 KPX b i -10
 KPX b florin -40
-KPX b ssharp -40
+KPX b germandbls -40
 KPX b f -40
 KPX c ydieresis -20
 KPX c yacute -20
@@ -1564,7 +1564,7 @@ KPX c j -70
 KPX c iacute -10
 KPX c i -10
 KPX c florin -40
-KPX c ssharp -40
+KPX c germandbls -40
 KPX c f -40
 KPX d ydieresis -40
 KPX d yacute -40
@@ -1575,7 +1575,7 @@ KPX d j -70
 KPX d iacute -10
 KPX d i -10
 KPX d florin -50
-KPX d ssharp -50
+KPX d germandbls -50
 KPX d f -50
 KPX e ydieresis -20
 KPX e yacute -20
@@ -1586,7 +1586,7 @@ KPX e j -70
 KPX e iacute -10
 KPX e i -10
 KPX e florin -50
-KPX e ssharp -50
+KPX e germandbls -50
 KPX e f -50
 KPX f hyphen -80
 KPX f semicolon -80
@@ -1621,7 +1621,7 @@ KPX f k -50
 KPX f h -50
 KPX f g -130
 KPX f florin -150
-KPX f ssharp -150
+KPX f germandbls -150
 KPX f f -150
 KPX f l -50
 KPX f b -50
@@ -1666,7 +1666,7 @@ KPX h j -70
 KPX h iacute -10
 KPX h i -10
 KPX h florin -60
-KPX h ssharp -60
+KPX h germandbls -60
 KPX h f -60
 KPX i zcaron -20
 KPX i z -20
@@ -1695,7 +1695,7 @@ KPX i k -10
 KPX i h -10
 KPX i g -20
 KPX i florin -70
-KPX i ssharp -70
+KPX i germandbls -70
 KPX i f -70
 KPX i l -10
 KPX i b -10
@@ -1731,7 +1731,7 @@ KPX j w -10
 KPX j v -10
 KPX j j -40
 KPX j florin -20
-KPX j ssharp -20
+KPX j germandbls -20
 KPX j f -20
 KPX k ydieresis -30
 KPX k yacute -30
@@ -1742,7 +1742,7 @@ KPX k j -70
 KPX k iacute -20
 KPX k i -20
 KPX k florin -40
-KPX k ssharp -40
+KPX k germandbls -40
 KPX k f -40
 KPX l ydieresis -40
 KPX l yacute -40
@@ -1753,7 +1753,7 @@ KPX l j -70
 KPX l iacute -10
 KPX l i -10
 KPX l florin -50
-KPX l ssharp -50
+KPX l germandbls -50
 KPX l f -50
 KPX m ydieresis -40
 KPX m yacute -40
@@ -1764,7 +1764,7 @@ KPX m j -70
 KPX m iacute -10
 KPX m i -10
 KPX m florin -60
-KPX m ssharp -60
+KPX m germandbls -60
 KPX m f -60
 KPX n ydieresis -40
 KPX n yacute -40
@@ -1775,7 +1775,7 @@ KPX n j -70
 KPX n iacute -10
 KPX n i -10
 KPX n florin -60
-KPX n ssharp -60
+KPX n germandbls -60
 KPX n f -60
 KPX o ydieresis -20
 KPX o yacute -20
@@ -1786,7 +1786,7 @@ KPX o j -70
 KPX o iacute -10
 KPX o i -10
 KPX o florin -40
-KPX o ssharp -40
+KPX o germandbls -40
 KPX o f -40
 KPX p ydieresis -20
 KPX p yacute -20
@@ -1797,7 +1797,7 @@ KPX p j -70
 KPX p iacute -10
 KPX p i -10
 KPX p florin -40
-KPX p ssharp -40
+KPX p germandbls -40
 KPX p f -40
 KPX q ydieresis -30
 KPX q yacute -30
@@ -1834,7 +1834,7 @@ KPX r k -20
 KPX r h -20
 KPX r g -30
 KPX r florin -60
-KPX r ssharp -60
+KPX r germandbls -60
 KPX r f -60
 KPX r l -20
 KPX r b -20
@@ -1872,11 +1872,11 @@ KPX s j -60
 KPX s iacute -10
 KPX s i -10
 KPX s florin -40
-KPX s ssharp -40
+KPX s germandbls -40
 KPX s f -40
 KPX t j -40
 KPX t florin -30
-KPX t ssharp -30
+KPX t germandbls -30
 KPX t f -30
 KPX u ydieresis -40
 KPX u yacute -40
@@ -1887,7 +1887,7 @@ KPX u j -70
 KPX u iacute -10
 KPX u i -10
 KPX u florin -50
-KPX u ssharp -50
+KPX u germandbls -50
 KPX u f -50
 KPX v ydieresis -30
 KPX v yacute -30
@@ -1898,7 +1898,7 @@ KPX v j -70
 KPX v iacute -30
 KPX v i -30
 KPX v florin -50
-KPX v ssharp -50
+KPX v germandbls -50
 KPX v f -50
 KPX w ydieresis -30
 KPX w yacute -30
@@ -1909,7 +1909,7 @@ KPX w j -70
 KPX w iacute -30
 KPX w i -30
 KPX w florin -50
-KPX w ssharp -50
+KPX w germandbls -50
 KPX w f -50
 KPX x ydieresis -20
 KPX x yacute -20
@@ -1920,7 +1920,7 @@ KPX x j -70
 KPX x iacute -30
 KPX x i -30
 KPX x florin -50
-KPX x ssharp -50
+KPX x germandbls -50
 KPX x f -50
 KPX y ydieresis -30
 KPX y yacute -30
@@ -1931,7 +1931,7 @@ KPX y j -70
 KPX y iacute -30
 KPX y i -30
 KPX y florin -50
-KPX y ssharp -50
+KPX y germandbls -50
 KPX y f -50
 KPX z ydieresis -30
 KPX z yacute -30
@@ -1948,7 +1948,7 @@ KPX z j -40
 KPX z iacute -30
 KPX z i -30
 KPX z florin -10
-KPX z ssharp -10
+KPX z germandbls -10
 KPX z f -10
 KPX z l -30
 KPX z b -30
@@ -2005,7 +2005,7 @@ KPX florin k -50
 KPX florin h -50
 KPX florin g -130
 KPX florin florin -150
-KPX florin ssharp -150
+KPX florin germandbls -150
 KPX florin f -150
 KPX florin l -50
 KPX florin b -50
@@ -2111,7 +2111,7 @@ KPX scaron j -60
 KPX scaron iacute -10
 KPX scaron i -10
 KPX scaron florin -40
-KPX scaron ssharp -40
+KPX scaron germandbls -40
 KPX scaron f -40
 KPX oe ydieresis -20
 KPX oe yacute -20
@@ -2122,7 +2122,7 @@ KPX oe j -70
 KPX oe iacute -10
 KPX oe i -10
 KPX oe florin -50
-KPX oe ssharp -50
+KPX oe germandbls -50
 KPX oe f -50
 KPX zcaron ydieresis -30
 KPX zcaron yacute -30
@@ -2139,7 +2139,7 @@ KPX zcaron j -40
 KPX zcaron iacute -30
 KPX zcaron i -30
 KPX zcaron florin -10
-KPX zcaron ssharp -10
+KPX zcaron germandbls -10
 KPX zcaron f -10
 KPX zcaron l -30
 KPX zcaron b -30
@@ -3052,17 +3052,17 @@ KPX Thorn E -30
 KPX Thorn D -30
 KPX Thorn B -30
 KPX Thorn A -40
-KPX ssharp ydieresis -20
-KPX ssharp yacute -20
-KPX ssharp y -20
-KPX ssharp w -20
-KPX ssharp v -20
-KPX ssharp j -70
-KPX ssharp iacute -10
-KPX ssharp i -10
-KPX ssharp florin -40
-KPX ssharp ssharp -40
-KPX ssharp f -40
+KPX germandbls ydieresis -20
+KPX germandbls yacute -20
+KPX germandbls y -20
+KPX germandbls w -20
+KPX germandbls v -20
+KPX germandbls j -70
+KPX germandbls iacute -10
+KPX germandbls i -10
+KPX germandbls florin -40
+KPX germandbls germandbls -40
+KPX germandbls f -40
 KPX agrave ydieresis -40
 KPX agrave yacute -40
 KPX agrave y -40
@@ -3072,7 +3072,7 @@ KPX agrave j -60
 KPX agrave iacute -20
 KPX agrave i -20
 KPX agrave florin -70
-KPX agrave ssharp -70
+KPX agrave germandbls -70
 KPX agrave f -70
 KPX aacute ydieresis -40
 KPX aacute yacute -40
@@ -3083,7 +3083,7 @@ KPX aacute j -60
 KPX aacute iacute -20
 KPX aacute i -20
 KPX aacute florin -70
-KPX aacute ssharp -70
+KPX aacute germandbls -70
 KPX aacute f -70
 KPX acircumflex ydieresis -40
 KPX acircumflex yacute -40
@@ -3094,7 +3094,7 @@ KPX acircumflex j -60
 KPX acircumflex iacute -20
 KPX acircumflex i -20
 KPX acircumflex florin -70
-KPX acircumflex ssharp -70
+KPX acircumflex germandbls -70
 KPX acircumflex f -70
 KPX atilde ydieresis -40
 KPX atilde yacute -40
@@ -3105,7 +3105,7 @@ KPX atilde j -60
 KPX atilde iacute -20
 KPX atilde i -20
 KPX atilde florin -70
-KPX atilde ssharp -70
+KPX atilde germandbls -70
 KPX atilde f -70
 KPX adieresis ydieresis -40
 KPX adieresis yacute -40
@@ -3116,7 +3116,7 @@ KPX adieresis j -60
 KPX adieresis iacute -20
 KPX adieresis i -20
 KPX adieresis florin -70
-KPX adieresis ssharp -70
+KPX adieresis germandbls -70
 KPX adieresis f -70
 KPX aring ydieresis -40
 KPX aring yacute -40
@@ -3127,7 +3127,7 @@ KPX aring j -60
 KPX aring iacute -20
 KPX aring i -20
 KPX aring florin -70
-KPX aring ssharp -70
+KPX aring germandbls -70
 KPX aring f -70
 KPX ae ydieresis -20
 KPX ae yacute -20
@@ -3138,7 +3138,7 @@ KPX ae j -70
 KPX ae iacute -10
 KPX ae i -10
 KPX ae florin -50
-KPX ae ssharp -50
+KPX ae germandbls -50
 KPX ae f -50
 KPX ccedilla ydieresis -20
 KPX ccedilla yacute -20
@@ -3149,7 +3149,7 @@ KPX ccedilla j -70
 KPX ccedilla iacute -10
 KPX ccedilla i -10
 KPX ccedilla florin -40
-KPX ccedilla ssharp -40
+KPX ccedilla germandbls -40
 KPX ccedilla f -40
 KPX egrave ydieresis -20
 KPX egrave yacute -20
@@ -3160,7 +3160,7 @@ KPX egrave j -70
 KPX egrave iacute -10
 KPX egrave i -10
 KPX egrave florin -50
-KPX egrave ssharp -50
+KPX egrave germandbls -50
 KPX egrave f -50
 KPX eacute ydieresis -20
 KPX eacute yacute -20
@@ -3171,7 +3171,7 @@ KPX eacute j -70
 KPX eacute iacute -10
 KPX eacute i -10
 KPX eacute florin -50
-KPX eacute ssharp -50
+KPX eacute germandbls -50
 KPX eacute f -50
 KPX ecircumflex ydieresis -20
 KPX ecircumflex yacute -20
@@ -3182,7 +3182,7 @@ KPX ecircumflex j -70
 KPX ecircumflex iacute -10
 KPX ecircumflex i -10
 KPX ecircumflex florin -50
-KPX ecircumflex ssharp -50
+KPX ecircumflex germandbls -50
 KPX ecircumflex f -50
 KPX edieresis ydieresis -20
 KPX edieresis yacute -20
@@ -3193,7 +3193,7 @@ KPX edieresis j -70
 KPX edieresis iacute -10
 KPX edieresis i -10
 KPX edieresis florin -50
-KPX edieresis ssharp -50
+KPX edieresis germandbls -50
 KPX edieresis f -50
 KPX ntilde ydieresis -40
 KPX ntilde yacute -40
@@ -3204,7 +3204,7 @@ KPX ntilde j -70
 KPX ntilde iacute -10
 KPX ntilde i -10
 KPX ntilde florin -60
-KPX ntilde ssharp -60
+KPX ntilde germandbls -60
 KPX ntilde f -60
 KPX ograve ydieresis -20
 KPX ograve yacute -20
@@ -3215,7 +3215,7 @@ KPX ograve j -70
 KPX ograve iacute -10
 KPX ograve i -10
 KPX ograve florin -40
-KPX ograve ssharp -40
+KPX ograve germandbls -40
 KPX ograve f -40
 KPX oacute ydieresis -20
 KPX oacute yacute -20
@@ -3226,7 +3226,7 @@ KPX oacute j -70
 KPX oacute iacute -10
 KPX oacute i -10
 KPX oacute florin -40
-KPX oacute ssharp -40
+KPX oacute germandbls -40
 KPX oacute f -40
 KPX ocircumflex ydieresis -20
 KPX ocircumflex yacute -20
@@ -3237,7 +3237,7 @@ KPX ocircumflex j -70
 KPX ocircumflex iacute -10
 KPX ocircumflex i -10
 KPX ocircumflex florin -40
-KPX ocircumflex ssharp -40
+KPX ocircumflex germandbls -40
 KPX ocircumflex f -40
 KPX otilde ydieresis -20
 KPX otilde yacute -20
@@ -3248,7 +3248,7 @@ KPX otilde j -70
 KPX otilde iacute -10
 KPX otilde i -10
 KPX otilde florin -40
-KPX otilde ssharp -40
+KPX otilde germandbls -40
 KPX otilde f -40
 KPX odieresis ydieresis -20
 KPX odieresis yacute -20
@@ -3259,7 +3259,7 @@ KPX odieresis j -70
 KPX odieresis iacute -10
 KPX odieresis i -10
 KPX odieresis florin -40
-KPX odieresis ssharp -40
+KPX odieresis germandbls -40
 KPX odieresis f -40
 KPX oslash ydieresis -20
 KPX oslash yacute -20
@@ -3270,7 +3270,7 @@ KPX oslash j -70
 KPX oslash iacute -10
 KPX oslash i -10
 KPX oslash florin -40
-KPX oslash ssharp -40
+KPX oslash germandbls -40
 KPX oslash f -40
 KPX ugrave ydieresis -40
 KPX ugrave yacute -40
@@ -3281,7 +3281,7 @@ KPX ugrave j -70
 KPX ugrave iacute -10
 KPX ugrave i -10
 KPX ugrave florin -50
-KPX ugrave ssharp -50
+KPX ugrave germandbls -50
 KPX ugrave f -50
 KPX uacute ydieresis -40
 KPX uacute yacute -40
@@ -3292,7 +3292,7 @@ KPX uacute j -70
 KPX uacute iacute -10
 KPX uacute i -10
 KPX uacute florin -50
-KPX uacute ssharp -50
+KPX uacute germandbls -50
 KPX uacute f -50
 KPX ucircumflex ydieresis -40
 KPX ucircumflex yacute -40
@@ -3303,7 +3303,7 @@ KPX ucircumflex j -70
 KPX ucircumflex iacute -10
 KPX ucircumflex i -10
 KPX ucircumflex florin -50
-KPX ucircumflex ssharp -50
+KPX ucircumflex germandbls -50
 KPX ucircumflex f -50
 KPX udieresis ydieresis -40
 KPX udieresis yacute -40
@@ -3314,7 +3314,7 @@ KPX udieresis j -70
 KPX udieresis iacute -10
 KPX udieresis i -10
 KPX udieresis florin -50
-KPX udieresis ssharp -50
+KPX udieresis germandbls -50
 KPX udieresis f -50
 KPX yacute ydieresis -30
 KPX yacute yacute -30
@@ -3325,7 +3325,7 @@ KPX yacute j -70
 KPX yacute iacute -30
 KPX yacute i -30
 KPX yacute florin -50
-KPX yacute ssharp -50
+KPX yacute germandbls -50
 KPX yacute f -50
 KPX thorn ydieresis -20
 KPX thorn yacute -20
@@ -3336,7 +3336,7 @@ KPX thorn j -70
 KPX thorn iacute -10
 KPX thorn i -10
 KPX thorn florin -40
-KPX thorn ssharp -40
+KPX thorn germandbls -40
 KPX thorn f -40
 KPX ydieresis ydieresis -30
 KPX ydieresis yacute -30
@@ -3347,7 +3347,7 @@ KPX ydieresis j -70
 KPX ydieresis iacute -30
 KPX ydieresis i -30
 KPX ydieresis florin -50
-KPX ydieresis ssharp -50
+KPX ydieresis germandbls -50
 KPX ydieresis f -50
 EndKernPairs
 EndKernData

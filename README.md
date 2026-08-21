@@ -64,6 +64,20 @@ pfb/
 
 This project is asset-centric. Typical contributions include regenerating fonts, validating metadata, and documenting conversion steps.
 
+### Glyph naming
+
+Glyph names in the `.pfb` encoding vectors and CharStrings dictionaries, and in the `.afm` metrics, follow the Adobe Glyph List, so that `/Encoding /WinAnsiEncoding` resolves every code the fonts define.
+
+GNU FreeFont uses three pre-AGL names. Regenerating any of the 12 text fonts requires renaming them in the encoding vector and the CharStrings dictionary of the `.pfb`, and in the `N` and `KPX` records of the `.afm`:
+
+| FreeFont name | AGL name | WinAnsi code |
+| --- | --- | --- |
+| `ssharp` | `germandbls` | 223 |
+| `micro` | `mu` | 181 |
+| `middot` | `periodcentered` | 183 |
+
+`PDFASymbol` and `PDFAZapfDingbats` are excluded: they declare FontSpecific encoding and are consumed through their built-in encoding.
+
 ---
 
 ## Packaging
