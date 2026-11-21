@@ -3,7 +3,7 @@
   "description": "Type1 core fonts for PDFA",
   "type": "library",
   "homepage": "https://tcpdf.org",
-  "license": "LGPL-3.0",
+  "license": "GPL-3.0-or-later WITH Font-exception-2.0",
   "keywords": [
     "tc-font-pdf",
     "PDFA",

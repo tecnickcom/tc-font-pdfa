@@ -2,7 +2,7 @@
 
 > Type1 core fonts for PDF/A workflows.
 
-[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![License](https://img.shields.io/badge/license-GPL--3.0--or--later%20WITH%20Font--exception--2.0-blue.svg)](NOTICE)
 
 [![Sponsor on GitHub](https://img.shields.io/badge/sponsor-github-EA4AAA.svg?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/tecnickcom)
 
@@ -94,3 +94,16 @@ equivalent.
 ## Packaging
 
 Distributed as source assets via Git and Composer.
+
+---
+
+## License
+
+The fonts are derived from GNU FreeFont and are distributed under the GNU General Public License version 3 or later, with the GNU FreeFont font embedding exception extended to them.
+
+Embedding these fonts, or unaltered portions of them, in a document does not by itself cause the document to be covered by the GNU General Public License.
+
+- `NOTICE`: copyright lines, license grant and font embedding exception.
+- `LICENSE`: full text of the GNU General Public License version 3.
+
+SPDX-License-Identifier: `GPL-3.0-or-later WITH Font-exception-2.0`
